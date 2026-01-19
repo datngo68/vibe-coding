@@ -1,0 +1,122 @@
+# Cursor IDE
+.cursor
+.shared
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sln.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Backend - .NET
+backend/**/bin/
+backend/**/obj/
+backend/**/TestResults/
+backend/**/.vs/
+backend/**/.vscode/
+backend/**/*.user
+backend/**/*.suo
+backend/**/*.cache
+backend/**/project.lock.json
+backend/**/project.fragment.lock.json
+backend/**/artifacts/
+backend/**/Properties/launchSettings.json
+backend/**/appsettings.Development.json
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+**/*.db
+**/*.db-shm
+**/*.db-wal
+backend/**/*.db
+backend/**/*.db-shm
+backend/**/*.db-wal
+
+# Frontend - Node.js
+# Ignore node_modules everywhere
+**/node_modules/
+node_modules/
+
+frontend/**/dist/
+frontend/**/dist-ssr/
+frontend/**/.vite/
+frontend/**/.vitest/
+frontend/**/coverage/
+frontend/**/.nyc_output/
+frontend/**/*.log
+frontend/**/npm-debug.log*
+frontend/**/yarn-debug.log*
+frontend/**/yarn-error.log*
+frontend/**/pnpm-debug.log*
+frontend/**/lerna-debug.log*
+frontend/**/.pnpm-debug.log*
+
+# Backend - Node.js (if any)
+backend/**/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Build outputs
+**/publish/
+**/build/
+**/out/
+
+# Test coverage
+**/coverage/
+**/.coverage/
+**/htmlcov/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# Package manager locks (optional - uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Design system generated files (if any)
+design-system/**/generated/
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
