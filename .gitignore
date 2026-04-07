@@ -120,3 +120,4 @@ design-system/**/generated/
 # Documentation build
 docs/_build/
 docs/.doctrees/
+appsettings.json
